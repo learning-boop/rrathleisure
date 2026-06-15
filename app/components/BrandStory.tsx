@@ -65,7 +65,7 @@ export default function BrandStory() {
 
             <Reveal from="bottom" delay={200}>
               <p className="text-gray-300 text-base sm:text-lg leading-relaxed max-w-xl mx-auto mb-12">
-                RRA Leisure was built for athletes who refuse to settle. Every stitch,
+                RR Athleisure was built for athletes who refuse to settle. Every stitch,
                 every fabric, every design — engineered to help you move faster,
                 train harder, and look sharper.
               </p>

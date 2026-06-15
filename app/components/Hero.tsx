@@ -66,7 +66,7 @@ export default function Hero() {
             <p className="text-gray-300 text-sm sm:text-lg leading-relaxed mb-8 sm:mb-10 max-w-lg opacity-0 animate-fade-in-up animate-delay-200">
               Premium sportswear engineered for{" "}
               <span className="text-white font-semibold">champions</span>.
-              Push your limits every single day with RRA Leisure.
+              Push your limits every single day with RR Athleisure.
             </p>
 
             {/* CTAs */}
@@ -126,7 +126,7 @@ export default function Hero() {
         className="hidden lg:block absolute right-8 top-1/2 -translate-y-1/2 text-white/8 text-[11px] uppercase tracking-[0.5em] font-black select-none"
         style={{ writingMode: "vertical-rl" }}
       >
-        RRA LEISURE — EST. 2020
+        RR ATHLEISURE — EST. 2020
       </div>
     </section>
   );

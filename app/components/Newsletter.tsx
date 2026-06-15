@@ -19,7 +19,7 @@ export default function Newsletter() {
 
         <h2 className="text-white text-4xl sm:text-5xl font-black uppercase leading-tight mb-5">
           Join the<br />
-          <span className="text-red-500">RRA Tribe</span>
+          <span className="text-red-500">RR Tribe</span>
         </h2>
 
         <p className="text-gray-500 text-sm leading-relaxed mb-8 max-w-md mx-auto">

@@ -8,9 +8,9 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "RRA Leisure — Premium Sports Apparel",
+  title: "RR Athleisure — Premium Sports Apparel",
   description:
-    "Discover RRA Leisure's premium sports collection for men and women. Performance sportswear crafted for champions.",
+    "Discover RR Athleisure's premium sports collection for men and women. Performance sportswear crafted for champions.",
 };
 
 export default function RootLayout({

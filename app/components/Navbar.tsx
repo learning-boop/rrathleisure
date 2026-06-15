@@ -13,7 +13,7 @@ export default function Navbar() {
       {/* Announcement Bar */}
       <div className="bg-red-600 text-white text-center py-2 text-[10px] sm:text-xs font-semibold tracking-wider sm:tracking-widest uppercase px-4">
         <span className="hidden sm:inline">Free Shipping Above ₹999 &nbsp;|&nbsp; </span>
-        Use Code <span className="font-black">RRA10</span>
+        Use Code <span className="font-black">RRATH10</span>
         <span className="hidden sm:inline"> for Extra 10% Off</span>
         <span className="sm:hidden"> — 10% Off</span>
       </div>
@@ -25,12 +25,12 @@ export default function Navbar() {
           <Link href="/" className="flex items-center gap-2 shrink-0">
             <div className="flex items-center gap-1">
               <span className="text-white font-black text-2xl tracking-tighter leading-none">
-                RRA
+                RR
               </span>
               <span className="w-1.5 h-1.5 rounded-full bg-red-600 mb-0.5" />
             </div>
             <span className="text-gray-400 text-[10px] font-bold tracking-[0.3em] uppercase mt-0.5">
-              Leisure
+              Athleisure
             </span>
           </Link>
 

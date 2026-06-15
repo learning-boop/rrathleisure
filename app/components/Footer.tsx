@@ -16,7 +16,7 @@ const footerLinks = {
     { label: "Contact Us", href: "/contact" },
   ],
   Company: [
-    { label: "About RRA Leisure", href: "/about" },
+    { label: "About RR Athleisure", href: "/about" },
     { label: "Our Story", href: "/story" },
     { label: "Careers", href: "/careers" },
     { label: "Press", href: "/press" },
@@ -64,11 +64,11 @@ export default function Footer() {
           <div className="col-span-2 md:col-span-1">
             <div className="flex items-center gap-1 mb-5">
               <span className="text-white font-black text-2xl tracking-tighter">
-                RRA
+                RR
               </span>
               <span className="w-1.5 h-1.5 rounded-full bg-red-600 mb-0.5" />
               <span className="text-gray-500 text-[10px] font-bold tracking-[0.3em] uppercase mt-0.5 ml-1">
-                Leisure
+                Athleisure
               </span>
             </div>
             <p className="text-gray-500 text-sm leading-relaxed mb-6 max-w-xs">
@@ -117,7 +117,7 @@ export default function Footer() {
       <div className="border-t border-[#1a1a1a]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-5 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-gray-600 text-xs uppercase tracking-widest">
-            © 2026 RRA Leisure. All rights reserved.
+            © 2026 RR Athleisure. All rights reserved.
           </p>
           <div className="flex flex-wrap justify-center gap-x-5 gap-y-2">
             {["Privacy", "Terms", "Cookies"].map((item) => (
