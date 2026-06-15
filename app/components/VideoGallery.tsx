@@ -4,10 +4,10 @@ import Link from "next/link";
 import Reveal from "./Reveal";
 
 const videos = [
-  "https://videos.pexels.com/video-files/8477593/8477593-hd_1920_1080_25fps.mp4",
-  "https://videos.pexels.com/video-files/6388396/6388396-hd_1920_1080_25fps.mp4",
-  "https://videos.pexels.com/video-files/19742425/19742425-hd_1920_1080_25fps.mp4",
-  "https://videos.pexels.com/video-files/4671955/4671955-hd_1920_1080_25fps.mp4",
+  "https://assets.mixkit.co/videos/52112/52112-1080.mp4",   // woman doing lunges
+  "https://assets.mixkit.co/videos/52104/52104-1080.mp4",   // woman with medicine ball
+  "https://assets.mixkit.co/videos/52317/52317-1080.mp4",   // battle rope training
+  "https://assets.mixkit.co/videos/608/608-1080.mp4",       // runner silhouette
 ];
 
 export default function VideoGallery() {
@@ -97,12 +97,12 @@ export default function VideoGallery() {
 
       {/* ── Bottom trust strip ── */}
       <div className="absolute bottom-0 left-0 right-0 z-10 border-t border-white/[0.07]">
-        <div className="flex">
-          {["10K+ Orders Shipped", "Free Returns", "Premium Fabrics", "Made for Champions"].map(
+        <div className="grid grid-cols-2 md:grid-cols-4">
+          {["10K+ Orders", "Free Returns", "Premium Fabrics", "For Champions"].map(
             (item, i) => (
               <div
                 key={item}
-                className="flex-1 py-3 sm:py-4 text-center text-[8px] sm:text-[10px] text-white/40 uppercase tracking-widest font-bold border-r border-white/[0.07] last:border-0"
+                className="py-3 sm:py-4 text-center text-[9px] sm:text-[10px] text-white/40 uppercase tracking-widest font-bold border-r border-b md:border-b-0 border-white/[0.07] last:border-r-0 [&:nth-child(2)]:border-r-0 md:[&:nth-child(2)]:border-r"
               >
                 {item}
               </div>

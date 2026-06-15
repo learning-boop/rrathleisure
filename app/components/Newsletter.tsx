@@ -45,7 +45,7 @@ export default function Newsletter() {
           No spam · Unsubscribe anytime · 100% free
         </p>
 
-        <div className="flex items-center justify-center gap-8 pt-8 border-t border-[#141414]">
+        <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-3 sm:gap-x-8 pt-8 border-t border-[#141414]">
           {["50K+ Subscribers", "Weekly Drops", "Exclusive Deals"].map((badge) => (
             <div key={badge} className="flex items-center gap-2">
               <div className="w-1.5 h-1.5 rounded-full bg-red-600" />

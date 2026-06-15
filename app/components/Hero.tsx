@@ -13,11 +13,11 @@ export default function Hero() {
         poster="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1920&q=90"
       >
         <source
-          src="https://videos.pexels.com/video-files/6823528/6823528-hd_1920_1080_25fps.mp4"
+          src="https://assets.mixkit.co/videos/40248/40248-1080.mp4"
           type="video/mp4"
         />
         <source
-          src="https://videos.pexels.com/video-files/4761663/4761663-hd_1920_1080_30fps.mp4"
+          src="https://assets.mixkit.co/videos/40766/40766-1080.mp4"
           type="video/mp4"
         />
       </video>
@@ -70,7 +70,7 @@ export default function Hero() {
             </p>
 
             {/* CTAs */}
-            <div className="flex flex-col xs:flex-row gap-3 sm:gap-4 mb-10 sm:mb-14 opacity-0 animate-fade-in-up animate-delay-300">
+            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mb-10 sm:mb-14 opacity-0 animate-fade-in-up animate-delay-300">
               <Link
                 href="/men"
                 className="group relative bg-red-600 text-white px-8 py-3.5 sm:px-9 sm:py-4 font-black uppercase tracking-widest text-sm overflow-hidden inline-flex items-center justify-center gap-3 transition-all duration-300 hover:bg-red-700 animate-pulse-glow"

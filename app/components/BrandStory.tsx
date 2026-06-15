@@ -21,8 +21,8 @@ export default function BrandStory() {
           className="absolute inset-0 w-full h-full object-cover"
           poster="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&w=1920&q=80"
         >
-          <source src="https://videos.pexels.com/video-files/3196430/3196430-hd_1920_1080_25fps.mp4" type="video/mp4" />
-          <source src="https://videos.pexels.com/video-files/6456249/6456249-hd_1920_1080_25fps.mp4" type="video/mp4" />
+          <source src="https://assets.mixkit.co/videos/52317/52317-1080.mp4" type="video/mp4" />
+          <source src="https://assets.mixkit.co/videos/43483/43483-1080.mp4" type="video/mp4" />
         </video>
 
         {/* Overlays */}

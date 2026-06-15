@@ -58,7 +58,7 @@ export default function ProductCard({ product }: { product: Product }) {
         {/* Wishlist */}
         <button
           aria-label="Wishlist"
-          className="absolute top-3 right-3 z-10 w-8 h-8 bg-black/60 backdrop-blur-sm text-white/40 hover:text-red-500 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 hover:bg-black/80"
+          className="absolute top-3 right-3 z-10 w-9 h-9 bg-black/60 backdrop-blur-sm text-white/40 hover:text-red-500 flex items-center justify-center opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-all duration-300 hover:bg-black/80"
         >
           <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
