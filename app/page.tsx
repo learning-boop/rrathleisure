@@ -7,6 +7,7 @@ import FeaturedProducts from "./components/FeaturedProducts";
 import PromoBanner from "./components/PromoBanner";
 import BrandStory from "./components/BrandStory";
 import TestimonialsSection from "./components/TestimonialsSection";
+import VideoGallery from "./components/VideoGallery";
 import Newsletter from "./components/Newsletter";
 import Footer from "./components/Footer";
 
@@ -23,6 +24,7 @@ export default function Home() {
         <PromoBanner />
         <BrandStory />
         <TestimonialsSection />
+        <VideoGallery />
         <Newsletter />
       </main>
       <Footer />
