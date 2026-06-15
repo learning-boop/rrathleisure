@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const footerLinks = {
   Shop: [
@@ -62,14 +63,14 @@ export default function Footer() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-10">
           {/* Brand Column */}
           <div className="col-span-2 md:col-span-1">
-            <div className="flex items-center gap-1 mb-5">
-              <span className="text-white font-black text-2xl tracking-tighter">
-                RR
-              </span>
-              <span className="w-1.5 h-1.5 rounded-full bg-red-600 mb-0.5" />
-              <span className="text-gray-500 text-[10px] font-bold tracking-[0.3em] uppercase mt-0.5 ml-1">
-                Athleisure
-              </span>
+            <div className="mb-5">
+              <Image
+                src="/RR_Logo.webp"
+                alt="RR Athleisure"
+                width={56}
+                height={56}
+                className="h-14 w-auto object-contain opacity-90"
+              />
             </div>
             <p className="text-gray-500 text-sm leading-relaxed mb-6 max-w-xs">
               Premium sports apparel for men and women who push limits. Crafted
